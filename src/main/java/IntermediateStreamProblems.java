@@ -32,7 +32,6 @@ public class IntermediateStreamProblems {
 
 
         //3. Given a list of names, group them by their first letter, and then count the number of names in each group.
-
         String[] names = {"Alice", "Bob", "Charlie", "Amy", "Bill", "Anna"};
         Map<Character, Long> namesMap = Arrays.stream(names).collect(Collectors.groupingBy(str->str.charAt(0),Collectors.counting()));
         System.out.println(namesMap);
@@ -94,7 +93,6 @@ public class IntermediateStreamProblems {
         System.out.println(uniqueWords);
 
         // 9. Student Grade Classification - 70 and above pass
-
         List<Student> students = List.of(
                 new Student("Alice", 85),
                 new Student("Bob", 60),
@@ -105,7 +103,6 @@ public class IntermediateStreamProblems {
         students.stream().filter(student -> student.marks()>70).forEach(System.out::println);
 
         //10. Given a list of strings, sort them according to increasing order of their length.
-
         List<String> fruits = Arrays.asList("Mango","pear" ,"Apple", "Banana", "Pineapple", "Kiwi");
 
         fruits.stream().sorted((o1, o2) -> o1.length()-o2.length()).forEach(System.out::println);

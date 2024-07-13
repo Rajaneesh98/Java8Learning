@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
 public class BasicStreamProblems {
@@ -77,6 +78,7 @@ public class BasicStreamProblems {
         List<Integer> numbers = Arrays.asList(2, 4, 6, 8, 10);
         boolean b = numbers.stream().allMatch(num -> num % 2 == 0);
         System.out.println("All Numbers satisfy the condition: "+b);
+
     }
 }
 

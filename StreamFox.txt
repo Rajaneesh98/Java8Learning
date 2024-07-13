@@ -1,0 +1,29 @@
+streams - objects comparision - Comaparator.comparing(Class::method)
+
+already completed
+1.lambdas, Functional interfaces
+2.Generics (revise)
+3.Streams
+4.MultiThreading
+
+Upcoming
+
+2. Collections (Intermediate) -> synchronized (Interview) (diff between Hashset and ArrayList)
+4. Object class and there methods 
+6. equals hashcode contract, collections
+
+
+Code WalkThrough
+3. Race condition (becoz of shared resources & resource allocation)
+4. Deadlock
+5. Thread safety (Synchronized)
+7. ExecutorService
+9. Interthread Communication
+10. Reentrant Lock
+
+
+Next Week-
+1.Core Java Interview Questions (Repeating - MultiThreading).
+2.Spring IOC (Annotation Based)
+
+
